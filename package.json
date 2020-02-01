@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./server/server.js",
     "test": ".\\node_modules\\.bin\\mocha --exit",
-    "coverage": ".\\node_modules\\.bin\\nyc npm run test"
+    "coverage": ".\\node_modules\\.bin\\nyc --reporter=html --report-dir=./report npm run test"
   },
   "keywords": [],
   "author": "",

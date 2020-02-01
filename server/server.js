@@ -1,4 +1,5 @@
-const app = require("express")();
+const express = require('express');
+const app = express();
 const readline = require('readline');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
@@ -13,6 +14,8 @@ app.use(morgan('dev'));
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
+// reporter route
+app.use('/report-check', express.static('report'));
 // service routes
 app.use(API_VERSION, routes);
 
