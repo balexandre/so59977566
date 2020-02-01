@@ -1,0 +1,18 @@
+// usefull file to be used with REST CLient extension for VSCode
+
+@HOST = http://localhost:3000/v1
+
+GET {{HOST}}/sum/a/2
+Content-Type: application/json
+###
+GET {{HOST}}/subtract/1/2
+Content-Type: application/json
+###
+GET {{HOST}}/divide/1/0
+Content-Type: application/json
+###
+GET {{HOST}}/multiply/1/0
+Content-Type: application/json
+###
+GET {{HOST}}/circumference/10
+Content-Type: application/json

@@ -1,0 +1,9 @@
+--ui bdd
+--timeout 15000
+--sort
+--colors
+--bail
+-R spec
+--require test/prepare
+--recursive
+--exit
