@@ -33,4 +33,4 @@ All files         |   93.46 |     87.5 |   78.26 |   94.74 |
 
  - `npm start` or `npm s` will start the server and you can use the `./server/_.http` file with [VSCode REST Client extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) 
  - `npm test` will start the tests (no need to prior start the server, Mocha [will start it automagically](https://www.chaijs.com/plugins/chai-http/))
- - `npm coverage` will run code coverage using [IstanbulJs](https://www.npmjs.com/package/nyc)
+ - `npm run coverage` will run code coverage using [IstanbulJs](https://www.npmjs.com/package/nyc)
