@@ -4,7 +4,7 @@
   "description": "StackOverflow helper for question #59977566",
   "scripts": {
     "start": "node ./server/server.js",
-    "test": ".\\node_modules\\.bin\\mocha --exit",
+    "test": ".\\node_modules\\.bin\\mocha --recursive --exit",
     "coverage": ".\\node_modules\\.bin\\nyc --reporter=html --report-dir=./report npm run test"
   },
   "keywords": [],
@@ -12,16 +12,16 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.1",
-    "cli-table3": "^0.5.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.3",
-    "morgan": "^1.9.1"
+    "cli-table3": "^0.6.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
+    "chai": "^4.3.7",
     "chai-http": "^4.3.0",
     "mocha": "^10.2.0",
     "mocha-prepare": "^0.1.0",
-    "nyc": "^15.0.0"
+    "nyc": "^15.1.0"
   }
 }
